@@ -1,0 +1,14 @@
+{
+  "name": "Main framework container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "main-framework-web",
+  "workspaceFolder": "/var/www/html",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "php.validate.executablePath": "/usr/local/bin/php",
+        "php-cs-fixer.executablePath": "php-cs-fixer"
+      }
+    }
+  }
+}
